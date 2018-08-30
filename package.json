@@ -1,13 +1,17 @@
 {
     "name": "mdc-web",
     "version": "1.0.0",
-    "description": "",
+    "author": "tomellericcardo",
+    "description": "A sample web-app with Material Design Components for web",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tomellericcardo/mdc-web.git"
+    },
     "main": "app.js",
     "scripts": {
         "start": "node app.js"
     },
-    "author": "tomellericcardo",
-    "license": "",
     "dependencies": {
         "express": "^4.16.3",
         "morgan": "^1.9.0"
