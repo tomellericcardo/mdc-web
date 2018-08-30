@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <title>mdc-web</title>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- FONTS & ICONS -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        
+        <!-- STYLES -->
+        <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/home.css">
+        
+    </head>
+    <body>
+        
+        <!-- HEADER -->
+        <header class="mdc-top-app-bar mdc-top-app-bar--fixed">
+            <div class="mdc-top-app-bar__row">
+                
+                <!-- TITLE -->
+                <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+                    <i class="material-icons mdc-top-app-bar__navigation-icon">extension</i>
+                    <span class="mdc-top-app-bar__title">MDC for Web</span>
+                </section>
+                
+                <!-- TOOLBAR -->
+                <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
+                    <span class="mdc-menu-surface--anchor">
+                        
+                        <i id="menu-icon" class="material-icons mdc-top-app-bar__action-item">more_vert</i>
+
+                        <!-- MENU -->
+                        <div class="mdc-menu mdc-menu-surface" tabindex="-1">
+                            <ul class="mdc-menu__items mdc-list" role="menu" aria-hidden="true">
+                                <li id="about" class="mdc-list-item" role="menuitem" tabindex="0">
+                                  About
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </span>
+                </section>
+                
+            </div>
+        </header>
+        
+        <!-- COMPONENTS -->
+        <div class="mdc-list mdc-list--two-line page-content" aria-orientation="vertical">
+            
+            <!-- BUTTON -->
+            <a href="/button" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">touch_app</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Button</span>
+                    <span class="mdc-list-item__secondary-text">Raised and flat buttons</span>
+                </span>
+            </a>
+            
+            <!-- CARD -->
+            <a href="/card" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">collections</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Card</span>
+                    <span class="mdc-list-item__secondary-text">Variuos card layout styles</span>
+                </span>
+            </a>
+            
+        </div>
+        
+        <!-- SCRIPTS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+        <script src="/js/navbar.js"></script>
+        <script src="/js/home.js"></script>
+        
+    </body>
+</html>

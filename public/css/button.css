@@ -1,0 +1,18 @@
+
+button {
+    margin: 5px;
+}
+
+.secondary-text-button:not(:disabled) {
+    color: var(--mdc-theme-secondary);
+}
+
+.secondary-filled-button:not(:disabled) {
+    background-color: var(--mdc-theme-secondary);
+    color: var(--mdc-theme-on-secondary);
+}
+
+.secondary-outlined-button:not(:disabled) {
+    border-color: var(--mdc-theme-secondary);
+    color: var(--mdc-theme-secondary);
+}

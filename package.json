@@ -1,0 +1,15 @@
+{
+    "name": "mdc-web",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "tomellericcardo",
+    "license": "",
+    "dependencies": {
+        "express": "^4.16.3",
+        "morgan": "^1.9.0"
+    }
+}

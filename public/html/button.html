@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <title>Button</title>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- FONTS & ICONS -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        
+        <!-- STYLES -->
+        <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/button.css">
+        
+    </head>
+    <body>
+        
+        <!-- HEADER -->
+        <header class="mdc-top-app-bar mdc-top-app-bar--fixed">
+            <div class="mdc-top-app-bar__row">
+                <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+                    <a href="/" class="material-icons mdc-top-app-bar__navigation-icon">arrow_back</a>
+                    <span class="mdc-top-app-bar__title">Button</span>
+                </section>
+            </div>
+        </header>
+        
+        <!-- BUTTONS -->
+        <div class="mdc-layout-grid page-content">
+            
+            <!-- TEXT BUTTONS -->
+            <div class="mdc-layout-grid__inner">
+                <div class="mdc-layout-grid__cell">
+                    <p class="mdc-typography--headline6">Text buttons</p>
+                    <button class="mdc-button">PRIMARY</button>
+                    <button class="mdc-button secondary-text-button">SECONDARY</button>
+                    <button class="mdc-button">
+                        <i class="material-icons mdc-button__icon" aria-hidden="true">pets</i>
+                        ICON
+                    </button>
+                    <button class="mdc-button" disabled>DISABLED</button>
+                    <button class="mdc-button mdc-button--dense">DENSE</button>
+                </div>
+            </div>
+            
+            <!-- RAISED BUTTONS -->
+            <div class="mdc-layout-grid__inner">
+                <div class="mdc-layout-grid__cell">
+                    <p class="mdc-typography--headline6">Raised buttons</p>
+                    <button class="mdc-button mdc-button--raised">PRIMARY</button>
+                    <button class="mdc-button mdc-button--raised secondary-filled-button">SECONDARY</button>
+                    <button class="mdc-button mdc-button--raised">
+                        <i class="material-icons mdc-button__icon" aria-hidden="true">pets</i>
+                        ICON
+                    </button>
+                    <button class="mdc-button mdc-button--raised" disabled>DISABLED</button>
+                    <button class="mdc-button mdc-button--raised mdc-button--dense">DENSE</button>
+                </div>
+            </div>
+            
+            <!-- UNELEVATED BUTTONS -->
+            <div class="mdc-layout-grid__inner">
+                <div class="mdc-layout-grid__cell">
+                    <p class="mdc-typography--headline6">Unelevated buttons</p>
+                    <button class="mdc-button mdc-button--unelevated">PRIMARY</button>
+                    <button class="mdc-button mdc-button--unelevated secondary-filled-button">SECONDARY</button>
+                    <button class="mdc-button mdc-button--unelevated">
+                        <i class="material-icons mdc-button__icon" aria-hidden="true">pets</i>
+                        ICON
+                    </button>
+                    <button class="mdc-button mdc-button--unelevated" disabled>DISABLED</button>
+                    <button class="mdc-button mdc-button--unelevated mdc-button--dense">DENSE</button>
+                </div>
+            </div>
+            
+            <!-- OUTLINED BUTTONS -->
+            <div class="mdc-layout-grid__inner">
+                <div class="mdc-layout-grid__cell">
+                    <p class="mdc-typography--headline6">Outlined buttons</p>
+                    <button class="mdc-button mdc-button--outlined">PRIMARY</button>
+                    <button class="mdc-button mdc-button--outlined secondary-outlined-button">SECONDARY</button>
+                    <button class="mdc-button mdc-button--outlined">
+                        <i class="material-icons mdc-button__icon" aria-hidden="true">pets</i>
+                        ICON
+                    </button>
+                    <button class="mdc-button mdc-button--outlined" disabled>DISABLED</button>
+                    <button class="mdc-button mdc-button--outlined mdc-button--dense">DENSE</button>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- SCRIPTS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+        <script src="/js/navbar.js"></script>
+        <script src="/js/button.js"></script>
+        
+    </body>
+</html>
