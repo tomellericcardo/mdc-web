@@ -2,8 +2,7 @@ var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
 
-var log_format = ':method :status :url';
-var logger = morgan(log_format);
+var logger = morgan(':method :status :url');
 var app = express();
 
 
