@@ -22,7 +22,6 @@
 
 .primary-text .subtitle {
     margin-top: 0;
-    font-weight: bold;
 }
 
 .card-demo .subtitle, .card-demo .text {
@@ -31,10 +30,6 @@
 
 
 /* BUTTONS */
-
-.mdc-card__action--button {
-    font-weight: bold;
-}
 
 .secondary-text-button:not(:disabled) {
     color: var(--mdc-theme-secondary);
