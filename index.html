@@ -1,0 +1,363 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <title>mdc-web</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="theme-color" content="#2962ff">
+
+        <!-- FONTS & ICONS -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+        <!-- STYLES -->
+        <link rel="stylesheet" href="https://unpkg.com/material-components-web@0.42.1/dist/material-components-web.min.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/home.css">
+
+    </head>
+    <body>
+
+        <!-- HEADER -->
+        <header class="mdc-top-app-bar mdc-top-app-bar--fixed">
+            <div class="mdc-top-app-bar__row">
+
+                <!-- TITLE -->
+                <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+                    <i class="material-icons mdc-top-app-bar__navigation-icon">extension</i>
+                    <span class="mdc-top-app-bar__title">MDC for Web</span>
+                </section>
+
+                <!-- TOOLBAR -->
+                <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
+                    <span class="mdc-menu-surface--anchor">
+
+                        <i id="menu-icon" class="material-icons mdc-top-app-bar__action-item">more_vert</i>
+
+                        <!-- MENU -->
+                        <div class="mdc-menu mdc-menu-surface" tabindex="-1">
+                            <ul class="mdc-menu__items mdc-list" role="menu" aria-hidden="true">
+                                <li id="about" class="mdc-list-item" role="menuitem" tabindex="0">
+                                  About
+                                </li>
+                            </ul>
+                        </div>
+
+                    </span>
+                </section>
+
+            </div>
+        </header>
+
+        <!-- COMPONENTS -->
+        <div class="mdc-list mdc-list--two-line page-content" aria-orientation="vertical">
+
+            <!-- BUTTON -->
+            <a href="/button" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">touch_app</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Button</span>
+                    <span class="mdc-list-item__secondary-text">Raised and flat buttons</span>
+                </span>
+            </a>
+
+            <!-- CARD -->
+            <a href="/card" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">collections</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Card</span>
+                    <span class="mdc-list-item__secondary-text">Variuos card layout styles</span>
+                </span>
+            </a>
+
+            <!-- CHECKBOX -->
+            <a href="/checkbox" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">check</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Checkbox</span>
+                    <span class="mdc-list-item__secondary-text">Multi-selection controls</span>
+                </span>
+            </a>
+
+            <!-- CHIP -->
+            <a href="/chip" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">label</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Chip</span>
+                    <span class="mdc-list-item__secondary-text">Chips for action, selection and input</span>
+                </span>
+            </a>
+
+            <!-- DIALOG -->
+            <a href="/dialog" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">message</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Dialog</span>
+                    <span class="mdc-list-item__secondary-text">Secondary text</span>
+                </span>
+            </a>
+
+            <!-- DRAWER -->
+            <a href="/drawer" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">vertical_split</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Drawer</span>
+                    <span class="mdc-list-item__secondary-text">Variuos drawer styles</span>
+                </span>
+            </a>
+
+            <!-- ELEVATION -->
+            <a href="/elevation" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">layers</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Elevation</span>
+                    <span class="mdc-list-item__secondary-text">Shadow for different elevations</span>
+                </span>
+            </a>
+
+            <!-- FLOATING ACTION BUTTON -->
+            <a href="/fab" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">star</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Floating action button</span>
+                    <span class="mdc-list-item__secondary-text">The primary action in an application</span>
+                </span>
+            </a>
+
+            <!-- GRID LIST -->
+            <a href="/grid-list" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">view_module</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Grid list</span>
+                    <span class="mdc-list-item__secondary-text">2D grid layouts</span>
+                </span>
+            </a>
+
+            <!-- ICON BUTTON -->
+            <a href="/icon-button" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">favorite</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Icon button</span>
+                    <span class="mdc-list-item__secondary-text">Icon buttons and toggles</span>
+                </span>
+            </a>
+
+            <!-- IMAGE LIST -->
+            <a href="/image-list" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">dashboard</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Image list</span>
+                    <span class="mdc-list-item__secondary-text">A collection of images</span>
+                </span>
+            </a>
+
+            <!-- LAYOUT GRID -->
+            <a href="/layout-grid" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">border_all</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Layout grid</span>
+                    <span class="mdc-list-item__secondary-text">Grid and gutter support</span>
+                </span>
+            </a>
+
+            <!-- LINEAR PROGRESS -->
+            <a href="/linear-progress" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">refresh</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Linear progress</span>
+                    <span class="mdc-list-item__secondary-text">Progress represented by bars</span>
+                </span>
+            </a>
+
+            <!-- LIST -->
+            <a href="/list" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">view_list</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">List</span>
+                    <span class="mdc-list-item__secondary-text">Item layouts in lists</span>
+                </span>
+            </a>
+
+            <!-- MENU -->
+            <a href="/menu" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">menu</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Menu</span>
+                    <span class="mdc-list-item__secondary-text">Pop over menus</span>
+                </span>
+            </a>
+
+            <!-- RADIO BUTTON -->
+            <a href="/radio-button" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">radio_button_checked</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Radio button</span>
+                    <span class="mdc-list-item__secondary-text">Single selection controls</span>
+                </span>
+            </a>
+
+            <!-- RIPPLE -->
+            <a href="/ripple" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">surround_sound</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Ripple</span>
+                    <span class="mdc-list-item__secondary-text">Touch ripple</span>
+                </span>
+            </a>
+
+            <!-- SELECT -->
+            <a href="/select" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">list</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Select</span>
+                    <span class="mdc-list-item__secondary-text">Popover selection menus</span>
+                </span>
+            </a>
+
+            <!-- SLIDER -->
+            <a href="/slider" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">linear_scale</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Slider</span>
+                    <span class="mdc-list-item__secondary-text">Range controls</span>
+                </span>
+            </a>
+
+            <!-- SNACKBAR -->
+            <a href="/snackbar" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">call_to_action</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Snackbar</span>
+                    <span class="mdc-list-item__secondary-text">Transient messages</span>
+                </span>
+            </a>
+
+            <!-- SWITCH -->
+            <a href="/switch" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">toggle_on</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Switch</span>
+                    <span class="mdc-list-item__secondary-text">ON/OFF switches</span>
+                </span>
+            </a>
+
+            <!-- TAB -->
+            <a href="/tab" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">view_carousel</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Tab</span>
+                    <span class="mdc-list-item__secondary-text">Navigation tabs</span>
+                </span>
+            </a>
+
+            <!-- TEXT FIELD -->
+            <a href="/text-field" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">title</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Text field</span>
+                    <span class="mdc-list-item__secondary-text">Single and multiline text fields</span>
+                </span>
+            </a>
+
+            <!-- THEME -->
+            <a href="/theme" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">category</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Theme</span>
+                    <span class="mdc-list-item__secondary-text">Using primary and secondary colors</span>
+                </span>
+            </a>
+
+            <!-- TOOLBAR -->
+            <a href="/toolbar" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">build</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Toolbar</span>
+                    <span class="mdc-list-item__secondary-text">Header and footer</span>
+                </span>
+            </a>
+
+            <!-- TOP APP BAR -->
+            <a href="/top-app-bar" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">tab</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Top app bar</span>
+                    <span class="mdc-list-item__secondary-text">Container for app title and actions</span>
+                </span>
+            </a>
+
+            <!-- TYPOGRAPHY -->
+            <a href="/tipography" class="mdc-list-item">
+                <span class="mdc-list-item__graphic">
+                    <i class="material-icons">text_fields</i>
+                </span>
+                <span class="mdc-list-item__text">
+                    <span class="mdc-list-item__primary-text">Typograpgy</span>
+                    <span class="mdc-list-item__secondary-text">Type hierarchy</span>
+                </span>
+            </a>
+
+        </div>
+
+        <!-- SCRIPTS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://unpkg.com/material-components-web@0.42.1/dist/material-components-web.min.js"></script>
+        <script src="/js/navbar.js"></script>
+        <script src="/js/home.js"></script>
+
+    </body>
+</html>
